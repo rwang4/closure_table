@@ -45,7 +45,7 @@ defmodule CTE.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:ecto, "~> 3.11.2", optional: true, runtime: false},
+      {:ecto, "~> 3.11.2 or ~> 3.12", optional: true, runtime: false},
       {:ecto_sql, "~> 3.11.3", optional: true, runtime: false},
       {:postgrex, ">= 0.0.0", optional: true, runtime: false},
 
